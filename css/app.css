@@ -1,0 +1,90 @@
+body {
+    font-family: 'Lato';
+    width: 960px;
+}
+
+.container {
+    width: 960px;
+    background-color: #dddddd;
+}
+
+h1,
+h2,
+h3
+{
+   color: #002bfa;
+    margin-bottom: 42px;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+header > p {
+    color: #333;
+    font-family: 'Lato';
+    font-size: 18px;
+}
+
+.container > p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url('../images/banner.jpg');
+    text-align: center;
+    padding: 260px 15px 100px;
+    color: white;
+}
+
+div.state-finder {
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: #F8F8F8;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+    padding: 30px;
+}
+
+div.state-finder label {
+    color: #002b5a;
+    margin-bottom: 5px;
+    font-size: 12px;
+    width: 100%;
+
+}
+
+.state-finder-search {
+    padding-bottom: 10px;
+}
+
+.row {
+    padding-top: 50px;
+}
+
+div.gravida {
+    background-color: #F8F8F8;
+}
+
